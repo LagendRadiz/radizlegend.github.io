@@ -1,0 +1,46 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    display: 0;
+    justify-content: 0;
+    align-items: 0;
+    min-height: 100vh;
+    background: #031321;
+    
+}
+.text
+{
+
+    color: aqua;
+    font-size: 30px;
+    display: center;   
+    justify-content: center;
+    min-height: none;
+}
+a
+{
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(0, 238, 255);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 30px;
+    overflow: hidden;
+    transform: 0,2s;
+}
+.buttom
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    font-family: consolas;
+}
+a:hover {
+    color: #ffffff;
+    background: #00fae1;
+    box-shadow: 0 0 10px #00fae1, 0 0 40px #2cead7,
+     0 0 80px #ffffff;
+    transition-delay: 0,5s;
+}
